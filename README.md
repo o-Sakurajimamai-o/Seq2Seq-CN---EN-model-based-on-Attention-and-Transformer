@@ -24,7 +24,6 @@ Both models are built from scratch and trained to translate English into Mandari
 
 ## Project Structure
 
-```text
 ├── cmn-eng/                        # Dataset directory (Tatoeba CN-EN)
 ├── Attention.py                    # Attention mechanisms (Additive, Dot-product)
 ├── data_preprocess.py              # Text cleaning and tokenization
