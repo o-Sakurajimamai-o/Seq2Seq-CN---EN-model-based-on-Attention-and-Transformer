@@ -61,7 +61,7 @@ To train the Transformer model:
 *By default, the scripts will save the model weights (`.pth`) to the local directory after training is complete.*
 
 
-本项目是一个基于深度学习的**英译中（English to Chinese）**机器翻译系统。项目中从零开始实现了两种经典的自然语言处理架构：基于 Attention 机制的 Seq2Seq 模型，以及完全基于自注意力机制的 Transformer 模型。
+本项目是一个基于深度学习的英译中（English to Chinese）机器翻译系统。项目中从零开始实现了两种经典的自然语言处理架构：基于 Attention 机制的 Seq2Seq 模型，以及完全基于自注意力机制的 Transformer 模型。
 
 本项目代码大量参考并使用了 [Dive into Deep Learning (d2l)](https://d2l.ai/) 的经典实现方式。
 
