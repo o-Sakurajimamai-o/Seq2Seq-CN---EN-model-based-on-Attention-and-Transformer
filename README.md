@@ -23,7 +23,7 @@ Both models are built from scratch and trained to translate English into Mandari
    * **Components:** Absolute Positional Encoding, Multi-Head Attention (scaled dot-product), Position-wise Feed-Forward Networks (FFN), and AddNorm (residual connections + layer normalization).
 
 ## Project Structure
-
+```text
 ├── cmn-eng/                        # Dataset directory (Tatoeba CN-EN)
 ├── Attention.py                    # Attention mechanisms (Additive, Dot-product)
 ├── data_preprocess.py              # Text cleaning and tokenization
@@ -33,7 +33,7 @@ Both models are built from scratch and trained to translate English into Mandari
 ├── seq2seq.pth                     # Saved weights for Seq2Seq (generated after training)
 ├── Transformer.pth                 # Saved weights for Transformer (generated after training)
 └── README.md
-
+```
 ## Dataset
 
 The project uses the **Mandarin Chinese - English** bilingual sentence pairs from the [Tatoeba Project](https://www.manythings.org/anki/) (`cmn-eng`).
